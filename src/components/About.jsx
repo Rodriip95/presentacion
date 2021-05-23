@@ -7,7 +7,7 @@ import Subtitulo from "./random/Subtitulo";
 function About() {
   return (
     <div className="pb-4" style={{backgroundColor:"#fefefe"}}>
-      <div className="container pt-3">
+      <div className="container pt-3 px-4">
         <div className="d-flex container justify-content-start pb-4">
           <Puntitos/>
           <Subtitulo subTitulo={"About Me"}/>
