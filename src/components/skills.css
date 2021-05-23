@@ -1,0 +1,12 @@
+.cont-img{
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+    width: 100%;
+}
+.cont-img img{
+    width: 100px;
+    height: 100px;
+}

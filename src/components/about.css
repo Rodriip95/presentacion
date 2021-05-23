@@ -1,0 +1,41 @@
+.descripcion{
+    border: solid 1px rgb(226, 226, 226);
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
+}
+
+.descripcion div{
+    width: 100%;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.btn-a{
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    background-color: #ff6569;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 18px;
+    padding: 10px 30px;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+}
+
+.btn-a:hover{
+    color: #fff;
+    background-color: #ff5258;
+    transition-duration: 10ms;
+    transition-timing-function: ease-out;
+}
+
+.image-avatar{
+    width: 100%;
+}
