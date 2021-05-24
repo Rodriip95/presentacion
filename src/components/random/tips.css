@@ -1,0 +1,16 @@
+.cont-data div i{
+    color: #ccc;
+    font-size: 28px;
+}
+.cont-data div h2{
+    color: #242446;
+    font-size: 28px;
+}
+.cont-data div p{
+    color: #242446;
+    font-size: 14px;
+}
+.cont-hp{
+    width: 100%;
+    border: 1px solid black;
+}

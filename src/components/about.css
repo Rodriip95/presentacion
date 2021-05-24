@@ -1,15 +1,9 @@
 .descripcion{
     border: solid 1px rgb(226, 226, 226);
-    display: flex;
     border-radius: 20px;
-    justify-content: center;
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
     -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
-}
-
-.descripcion div{
-    width: 100%;
 }
 
 p{
@@ -36,6 +30,35 @@ p{
     transition-timing-function: ease-out;
 }
 
-.image-avatar{
-    width: 100%;
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 575px) {
+    .image-avatar{
+        margin-bottom: 20px;
+        width: 50%;
+    }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+    .image-avatar{
+        margin-bottom: 20px;
+        width: 60%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .image-avatar{
+        margin-bottom: 20px;
+        width: 60%;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up)*/ 
+@media only screen and (min-width: 992px) {
+    .image-avatar{
+        width: 100%;
+    }
+}
+
