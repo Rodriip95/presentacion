@@ -5,12 +5,58 @@
 .cont-data div h2{
     color: #242446;
     font-size: 28px;
+    position: relative;
+    bottom: -10px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
 }
 .cont-data div p{
     color: #242446;
     font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .cont-hp{
-    width: 100%;
-    border: 1px solid black;
+    margin: 0px 10px;    
+}
+
+.cont-data{
+    margin: 20px;
+    height: 100%;
+    width: max-content;
+}
+.cont-datas{
+    height: 100%;
+    /* width: 100%; */
+}
+
+@media only screen and (max-width: 575px) {
+    .cont-data div i{
+        color: #ccc;
+        font-size: 24px;
+    }
+    h2{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cont-data{
+        margin: 20px 5px;
+        height: 100px;
+        width: 30%;
+    }
+    .cont-datas{
+        width: 100%;
+    }
+    .cont-hp{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+    }
+    .cont-hp p{
+        height: 100%;
+        font-size: 10px;
+    }
 }
