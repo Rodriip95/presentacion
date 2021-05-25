@@ -1,62 +1,46 @@
-.cont-data div i{
-    color: #ccc;
-    font-size: 28px;
+.iconos{
+    font-size: 36px;
+    opacity: 0.5;
 }
-.cont-data div h2{
-    color: #242446;
-    font-size: 28px;
-    position: relative;
-    bottom: -10px;
+.numeroh2{
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
-}
-.cont-data div p{
     color: #242446;
-    font-size: 14px;
+    position: relative;
+    font-size: 28px;
+    bottom: -10px;
+    left: 10px;
+}
+.desc-p{
     font-family: 'Nunito Sans', sans-serif;
-}
-.cont-hp{
-    margin: 0px 10px;    
-}
-
-.cont-data{
-    margin: 20px;
-    height: 100%;
-    width: max-content;
-}
-.cont-datas{
-    height: 100%;
-    /* width: 100%; */
+    font-size: 14px;
+    padding: 0px 5px;
 }
 
 @media only screen and (max-width: 575px) {
-    .cont-data div i{
-        color: #ccc;
+    .iconos{
         font-size: 24px;
     }
-    h2{
-        font-size: 18px;
+    .numeroh2{
+        font-size: 20px;
+        bottom: -10px;
+        left: 5px;
+    }
+    .desc-p{
+        font-size: 12px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .cont-data{
-        margin: 20px 5px;
-        height: 100px;
-        width: 30%;
+    .iconos{
+        font-size: 30px;
     }
-    .cont-datas{
-        width: 100%;
+    .numeroh2{
+        font-size: 24px;
+        bottom: -10px;
+        left: 5px;
     }
-    .cont-hp{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 100%;
-        width: 100%;
-    }
-    .cont-hp p{
-        height: 100%;
-        font-size: 10px;
+    .desc-p{
+        font-size: 12px;
     }
 }

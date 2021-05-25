@@ -1,0 +1,46 @@
+.cardimg{
+    height: 380px;
+    position: relative;
+    width: 350px;
+}
+.resumen{
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    left: 0;
+    padding: 0 10px;
+    transition-delay: 200ms;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+.cardimg:hover .resumen{
+    bottom: 5%;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px 20px 0px 0px;
+    transition-delay: 200ms;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+#astrid{
+    background-image: url('../assets/astrid.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#menu{
+    background-image: url('../assets/menu.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#coment{
+    background-image: url('../assets/coment.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
