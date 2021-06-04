@@ -6,6 +6,12 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px rgba(216, 216, 216, 0.1) solid;
+    width: 100%;
+}
+
+.navegacion div{
+    display: flex;
+    align-items: center;
 }
 
 .navegacion ul{
@@ -33,7 +39,7 @@
 .navegacion ul li:hover{
     transition-timing-function: ease-in;
     transition-duration: 200ms;
-    transition-delay:  5ms;
+    transition-delay: 5ms;
     transform: scale(1.1);
 }
 
@@ -43,4 +49,24 @@
     transition-delay:  5ms;
     color: #ff6569;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .navegacion{
+        padding: 20px 0 0 0;
+    }
+    .navegacion ul{
+        justify-content: space-around;
+        width: 100%;
+    }
+    .navegacion ul li{
+        margin: 0 10px;
+    }
+    .navegacion div{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }

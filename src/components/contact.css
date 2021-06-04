@@ -1,0 +1,36 @@
+.btn-submit{
+    border: 0;
+    font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    background-color: #fa444a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 18px;
+    padding: 10px 30px;
+    transition-duration: 200ms;
+    transition-delay: 300ms;
+    transition-timing-function: ease-in;
+}
+
+.inputFormik{
+    border-radius: 10px;
+    border: 3px solid #242446;
+    background-color: #242446;
+    color: #fff;
+    padding: 5px;
+    outline: none;
+} 
+
+.alerta{
+    font-weight: bold;
+    color: #fa444a;
+} 
+
+.btn-submit:hover{
+    color: #fff;
+    background-color: #e6282e;
+    transition-delay: 100ms;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+}
