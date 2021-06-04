@@ -78,7 +78,14 @@
 @media only screen and (max-width: 992px) {
     .cardimg{
         height: 450px;
-        width: 420px;
+        width: 390px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .cardimg{
+        height: 350px;
+        width: 320px;
     }
 }
 

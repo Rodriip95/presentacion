@@ -6,9 +6,9 @@ function Hero() {
     return(
       <div className="hero">
         <img src={profile} alt="profile"/>
-        <h1>Hi, i'm Rodri</h1>
+        <h1>Bienvenidos</h1>
         <p>Full Stack Developer</p>
-        <a href="#">Hire me</a>
+        <a href="#">Conoceme</a>
       </div>
     )
 }
