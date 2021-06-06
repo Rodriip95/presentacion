@@ -1,19 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./about.css"
-import profile from "../assets/profilerojo.svg"
+import profile from "../assets/rodri.jpg"
 import Puntitos from "./random/Puntitos";
 import Subtitulo from "./random/Subtitulo";
 import Tips from "./random/Tips";
+import CV from '../assets/CVRODRIGOPENELA.pdf'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
 
 function About() {
+  useEffect(()=>{
+    AOS.init({
+      mirror: false,
+      once: false,
+      easing: 'ease-in-out',
+      duration: 600
+    });
+  },[])
   return (
-    <div className="pb-4" style={{backgroundColor:"#fefefe"}}>
+    <div id="about" className="pb-4" style={{backgroundColor:"#fefefe"}}>
       <div className="container pt-3 px-4">
         <div className="d-flex container justify-content-start pb-4">
           <Puntitos/>
           <Subtitulo subTitulo={"About Me"}/>
         </div>
-        <div className="row">
+        <div data-aos="fade-up" className="row">
           <div className="col-lg-3 col-12 d-flex justify-content-center align-items-center">
             <img className="image-avatar" src={profile} alt="profile"/>
           </div>
@@ -21,10 +33,10 @@ function About() {
             <div className="row">
               <div className="col-12 col-md-6 py-4 d-flex flex-column justify-content-between">
                 <p className="px-4">
-                  Me llamo Rodrigo Manuel Penela, tengo 26 años y soy de Buenos Aires, Argentina. Soy Desarrollador Full Stack y estudio Licenciatura en Programacion en la universidad (UNGS). Soy muy detallista y me gustan los buenos diseños y las interfaces modernas, tambien en mis tiempos libres enseño diseño web y trabajo en proyectos con mis colegas. 
+                  Me llamo Rodrigo Manuel Penela, tengo 26 años y soy de Buenos Aires, Argentina. Soy Desarrollador Full Stack y estudio Licenciatura en Programacion en la universidad (UNGS). Soy muy detallista, me gustan los buenos diseños y las interfaces modernas, tambien en mis tiempos libres enseño diseño web y trabajo en proyectos con mis colegas. 
                 </p>
                 <div className="d-flex justify-content-center">
-                  <a href="#" className="btn-a">Download CV</a>
+                  <a href={CV} download className="btn-a">Download CV</a>
                 </div>
               </div>
 

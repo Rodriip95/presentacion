@@ -1,18 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Puntitos from './random/Puntitos';
 import Subtitulo from './random/Subtitulo';
 
 import "./project.css"
+import Aos from 'aos';
 
 export default function Project(){
+    useEffect(()=>{
+        Aos.init({
+          mirror: false,
+          once: false,
+          easing: 'ease-in-out',
+          duration: 600
+        });
+      },[])
     return(
-        <div className="container">
+        <div id="projects" className="container">
             <div className="d-flex container justify-content-start pb-4">
                 <Puntitos/>
                 <Subtitulo subTitulo={"Projects"}/>
             </div>
 
-            <div className="row d-flex justify-content-around">
+            <div data-aos="fade-up" className="row d-flex justify-content-around">
                 <div id="astrid" className="cardimg col-12 col-lg-12 col-xl-3">
                     <div className="resumen">
                         <a href="https://astridtoys.herokuapp.com/" target="_blank">Astrid Toys <span>(ver sitio)</span></a>

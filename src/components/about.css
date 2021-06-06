@@ -30,12 +30,15 @@ p{
     transition-timing-function: ease-out;
 }
 
+.image-avatar{
+    border-radius: 100%;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 575px) {
     .image-avatar{
         margin-bottom: 20px;
-        width: 50%;
+        width: 60%;
     }
 }
 
@@ -51,7 +54,7 @@ p{
 @media only screen and (min-width: 768px) {
     .image-avatar{
         margin-bottom: 20px;
-        width: 60%;
+        width: 50%;
     }
 }
 

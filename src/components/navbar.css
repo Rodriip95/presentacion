@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .navegacion{
     background-color: #2b2b47;
     color: #fff;

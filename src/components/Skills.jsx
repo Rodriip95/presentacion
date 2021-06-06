@@ -1,20 +1,30 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Puntitos from './random/Puntitos'
 import Subtitulo from './random/Subtitulo'
 import logoFront from '../assets/Asset21.svg';
 import logoDb from '../assets/Asset22.svg';
 import logoBack from '../assets/Asset24.svg';
 import "./skills.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 
 export default function Skills() {
+    useEffect(()=>{
+        AOS.init({
+          mirror: false,
+          once: false,
+          easing: 'ease-in-out',
+          duration: 600
+        });
+      },[])
     return(
-        <div className="container mb-3">
+        <div id="skills" className="container mb-3">
             <div className="d-flex container justify-content-start pb-4">
                 <Puntitos/>
                 <Subtitulo subTitulo={"Skills"}/>
             </div>
-            <div className="row px-4 d-flex justify-content-center">
+            <div data-aos="fade-up" className="row px-4 d-flex justify-content-center">
                 <div className="cont-img col-sm-12 col-lg-3 m-2">
                     <img src={logoBack}/>
                     <h2>Back-End</h2>

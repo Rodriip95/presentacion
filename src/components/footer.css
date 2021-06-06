@@ -1,0 +1,10 @@
+.olascont{
+    position: relative;
+}
+.olas{
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    bottom: 0;
+    z-index: 1;
+}
