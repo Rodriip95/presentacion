@@ -33,7 +33,7 @@ function About() {
             <div className="row">
               <div className="col-12 col-md-6 py-4 d-flex flex-column justify-content-between">
                 <p className="px-4">
-                  Me llamo Rodrigo Manuel Penela, tengo 26 años y soy de Buenos Aires, Argentina. Soy Desarrollador Full Stack y estudio Licenciatura en Programacion en la universidad (UNGS). Soy muy detallista, me gustan los buenos diseños y las interfaces modernas, tambien en mis tiempos libres enseño diseño web y trabajo en proyectos con mis colegas. 
+                  My name is Rodrigo Manuel Penela, i´m 26 years old and i´m from Buenos Aires, Argentina. I´m Full Stack Developer and i´m study a degree in Programming in the university (UNGS). I am very detailed, I like good designs and modern interfaces also in my free times I teach web design and work on projects with my partners. 
                 </p>
                 <div className="d-flex justify-content-center">
                   <a href={CV} download className="btn-a">Download CV</a>

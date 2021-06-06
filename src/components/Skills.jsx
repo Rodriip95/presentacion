@@ -29,7 +29,7 @@ export default function Skills() {
                     <img src={logoBack}/>
                     <h2>Back-End</h2>
                     <div className="cont-p">
-                    <p>Buen dominio de Javascript y conocimientos de Node js con Express.</p>
+                    <p>Good command of Javascript and knowledge of Node.js with Express.</p>
                     </div>
                     <div className="cont-icons">
                         <i class="fab fa-node-js"></i>
@@ -40,7 +40,7 @@ export default function Skills() {
                     <img src={logoFront}/>
                     <h2>Front-End</h2>
                     <div className="cont-p">
-                    <p>Buen manejo de React y React Native, solidas bases de HTML y CSS con dominio de Bootstrap.</p>
+                    <p>React is my main tecnology also React Native, I have solid foundations of HTML, CSS and Bootstrap.</p>
                     </div>
                     <div className="cont-icons">
                         <i class="fas fa-mobile-alt"></i>
@@ -54,7 +54,7 @@ export default function Skills() {
                     <img src={logoDb}/>
                     <h2>Database</h2>
                     <div className="cont-p">
-                    <p>Conocimientos en bases de datos SQL, como MySQL y PostgreeSQL, y NO-SQL, como Firebase.</p>
+                    <p>Knowledge of SQL databases, such as MySQL and PostgreeSQL, and NO-SQL, such as Firebase.</p>
                     </div>
                     <div className="cont-icons">
                         <i class="fas fa-database"></i>

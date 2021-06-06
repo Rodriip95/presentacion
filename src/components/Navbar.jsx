@@ -6,7 +6,7 @@ function Navbar() {
         <div className="d-flex justify-content-center">
             <nav className="navegacion row">
                 <div className="col-12 col-md-6">
-                    <h1>Rodrigo Penela</h1>
+                    <h1 style={{color:"#ff6569", cursor:"default"}}>Rodrigo Penela</h1>
                 </div>
                 <ul className="col-12 col-md-6">
                     <li>

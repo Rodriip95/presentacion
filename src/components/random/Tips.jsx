@@ -11,7 +11,7 @@ export default function Tips(){
                     </div>
                     <div>
                         <h2 className="numeroh2">2</h2>
-                        <p className="desc-p">Tutorias realizadas</p>
+                        <p className="desc-p">Tutorials performed</p>
                     </div>
                 </div>   
 
@@ -21,7 +21,7 @@ export default function Tips(){
                     </div>
                     <div>
                         <h2 className="numeroh2">18</h2>
-                        <p className="desc-p">Alumnos obtenidos</p>
+                        <p className="desc-p">Students obtained</p>
                     </div>
                 </div> 
 
@@ -31,7 +31,7 @@ export default function Tips(){
                     </div>
                     <div>
                         <h2 className="numeroh2">96</h2>
-                        <p className="desc-p">Horas de tutorias</p>
+                        <p className="desc-p">Hours of tutorials</p>
                     </div>
                 </div> 
 
@@ -41,7 +41,7 @@ export default function Tips(){
                     </div>
                     <div>
                         <h2 className="numeroh2">234</h2>
-                        <p className="desc-p">Archivos creados</p>
+                        <p className="desc-p">Files created</p>
                     </div>
                 </div> 
 

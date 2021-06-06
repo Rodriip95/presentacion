@@ -7,8 +7,20 @@
     padding: 100px 0;
     margin: 0;
     width: 100%;
-    height: 800px;
+    height: 600px;
 }
+@media only screen and (min-width: 1400px) {
+    .hero{
+        height: 800px;
+    }
+}
+
+.linkedin{
+    color: #ff6569;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
 .hero img{
     width: 240px;
     border-radius: 100%;
@@ -22,7 +34,7 @@
     font-family: 'Nunito Sans', sans-serif;
     color: #fff;
 }
-.hero a{
+.botonMain{
     font-family: 'PT Sans', sans-serif;
     text-decoration: none;
     background-color: #ff6569;
@@ -36,7 +48,7 @@
     transition-timing-function: ease-in;
 }
 
-.hero a:hover{
+.botonMain:hover{
     color: #fff;
     background-color: #fa444a;
     transition-delay: 100ms;
