@@ -24,14 +24,18 @@ html{
     width: 50%;
 }
 
-.navegacion ul li{
+#home{
+    background-color: transparent !important;
+}
+
+.nav-item{
     list-style: none;
     transition-duration: 200ms;
-    transition-delay:  200ms;
+    transition-delay:  10ms;
     transition-timing-function: ease-out;
 }
 
-.navegacion ul li a{
+.nav-item a{
     text-decoration: none;
     font-family: 'Nunito Sans', sans-serif;
     color: #fff;
@@ -40,14 +44,14 @@ html{
     transition-timing-function: ease-out;
 }
 
-.navegacion ul li:hover{
+.nav-item:hover{
     transition-timing-function: ease-in;
     transition-duration: 200ms;
     transition-delay: 5ms;
     transform: scale(1.1);
 }
 
-.navegacion ul li a:hover{
+.nav-item a:hover{
     transition-timing-function: ease-in;
     transition-duration: 200ms;
     transition-delay:  5ms;
@@ -55,7 +59,7 @@ html{
     font-weight: bold;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .navegacion{
         padding: 20px 0 0 0;
     }
@@ -73,4 +77,4 @@ html{
         width: 100%;
         margin-bottom: 10px;
     }
-}
+} */
