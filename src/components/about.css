@@ -1,4 +1,17 @@
-.descripcion{
+#about{
+    background-color: #fefefe;
+}
+.image-profile{
+    width: 350px;
+}
+
+.contenedor-about{
+    border: 2px solid rgb(231, 231, 231);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* .descripcion{
     border: solid 1px rgb(226, 226, 226);
     border-radius: 20px;
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
@@ -32,36 +45,40 @@ p{
 
 .image-avatar{
     border-radius: 100%;
-}
+    transform: rotate(-7deg);
+} */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 575px) {
-    .image-avatar{
+    /* .image-avatar{
         margin-bottom: 20px;
         width: 60%;
+    } */
+    .contenedor-about{
+        margin: 0 10px;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 576px) {
-    .image-avatar{
+    /* .image-avatar{
         margin-bottom: 20px;
         width: 60%;
-    }
+    } */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .image-avatar{
+    /* .image-avatar{
         margin-bottom: 20px;
         width: 50%;
-    }
+    } */
 }
 
 /* Large devices (laptops/desktops, 992px and up)*/ 
 @media only screen and (min-width: 992px) {
-    .image-avatar{
-        width: 100%;
-    }
+    /* .image-avatar{
+        width: 300px;
+    } */
 }
 

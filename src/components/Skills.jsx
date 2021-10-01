@@ -24,7 +24,53 @@ export default function Skills() {
                 <Puntitos/>
                 <Subtitulo subTitulo={"Skills"}/>
             </div>
-            <div data-aos="fade-up" className="row px-4 d-flex justify-content-center">
+            <div className="row contenedor-about">
+                <div className="d-flex flex-column justify-content-between col-sm-12 col-md-4 align-items-center pt-4 pb-3">
+                    {/* <img src={logoBack}/> */}
+                    <i class="fas icono-cont text-danger fa-user-cog"></i>
+                    <div className="text-center h-100">
+                        <h2>Back-End</h2>
+                        <div className="cont-p">
+                        <p>Good command of Javascript and knowledge of Node.js with Express.</p>
+                        </div>
+                    </div>
+                    <div className="cont-icons">
+                        <i class="fab fa-node-js"></i>
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                </div>
+                <div className="d-flex flex-column justify-content-between col-sm-12 col-md-4 align-items-center pt-4 pb-3">
+                    {/* <img src={logoFront}/> */}
+                    <i class="fas icono-cont text-primary fa-paint-brush"></i>
+                    <div className="text-center h-100">
+                        <h2>Front-End</h2>
+                        <div className="cont-p">
+                        <p>React is my main tecnology also React Native, I have solid foundations of HTML, CSS and Bootstrap.</p>
+                        </div>
+                    </div>
+                    <div className="cont-icons">
+                        <i class="fas fa-mobile-alt"></i>
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-react"></i>
+                        <i class="fab fa-bootstrap"></i>
+                        <i class="fab fa-css3"></i>
+                    </div>
+                </div>
+                <div className="d-flex flex-column justify-content-between col-sm-12 col-md-4 align-items-center pt-4 pb-3">
+                    {/* <img src={logoDb}/> */}
+                    <i class="fas text-success icono-cont fa-server"></i>
+                    <div className="text-center h-100">
+                        <h2>Database</h2>
+                        <div className="cont-p">
+                        <p>Knowledge of SQL databases, such as MySQL and PostgreeSQL, and NO-SQL, such as Firebase.</p>
+                        </div>
+                    </div>
+                    <div className="cont-icons">
+                        <i class="fas fa-database"></i>
+                    </div>
+                </div>
+            </div>
+            {/* <div data-aos="fade-up" className="row px-4 d-flex justify-content-center">
                 <div className="cont-img col-sm-12 col-lg-3 m-2">
                     <img src={logoBack}/>
                     <h2>Back-End</h2>
@@ -60,7 +106,7 @@ export default function Skills() {
                         <i class="fas fa-database"></i>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

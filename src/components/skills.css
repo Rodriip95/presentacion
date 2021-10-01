@@ -1,30 +1,26 @@
 .cont-img{
-    border: 1px solid rgb(226, 226, 226);
-    border-radius: 20px;
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
-    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
     text-align: center;
-    padding-top: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    transition-delay: 50ms;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* transition-delay: 50ms;
     transition-duration: 200ms;
-    transition-timing-function: ease-in;
+    transition-timing-function: ease-in; */
 }
-.cont-img:hover{
+/* .cont-img:hover{
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
     -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
     -moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
     transition-delay: 50ms;
     transition-duration: 500ms;
     transition-timing-function: ease-in;
-}
+} */
 .cont-img img{
     width: 100px;
     min-height: 100px;
+}
+.icono-cont{
+    font-size: 72px;
+    margin-bottom: 20px;
 }
 .cont-img h2{
     font-family: 'PT Sans', sans-serif;
@@ -32,18 +28,18 @@
     color: #242446;
     height: 100%;
 }
-.cont-p{
+/* .cont-p{
     min-height: 120px;
-}
-.cont-icons{
+} */
+/* .cont-icons{
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-}
+} */
 .cont-icons i{
     margin: 0 5px;
-    font-size: 20px;
+    font-size: 24px;
     color: #242446;
     transition-delay: 100ms;
     transition-duration: 200ms;
