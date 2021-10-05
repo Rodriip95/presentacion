@@ -88,4 +88,85 @@
         width: 320px;
     }
 }
+.caja{
+    height: 350px;
+    cursor: default;
+    filter: grayscale(1);
+    transition-duration: 500ms;
+    transition-delay: 140ms;
+    transition-timing-function: ease-out;
+}
+.caja:hover{
+    transition-duration: 200ms;
+    transition-delay: 50ms;
+    transition-timing-function: ease-in;
+    filter: grayscale(0);
+}
 
+.caja-at{
+    background-color: #ab1320;
+}
+.caja-at a{
+    text-decoration: none;
+    font-family: 'Rancho', cursive;
+    color: #ffa328;
+    font-size: 72px;
+    text-align: center;
+}
+
+.caja-comment{
+    background-color: #000000;
+}
+.caja-comment a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    color: #ffff00;
+    text-align: center;
+}
+
+.caja-menu{
+    background-color: #ee6e73;
+}
+.caja-menu a{
+    text-decoration: none;
+    font-family: 'Yellowtail', cursive;
+    font-size: 72px;
+    color: #fff;
+    text-align: center;
+}
+
+.caja-p{
+    color: #ddd;
+}
+
+.caja-patria{
+    background-color: #ffffff;
+}
+.caja-patria img{
+    width: 90%;
+}
+
+.logo{
+    font-family: 'Anton', sans-serif;
+    font-size: 72px;
+}
+.logosup{
+    color: #ea7b26;
+    text-decoration: none;
+}
+.logoinf{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: -15px;
+}
+.caja-ecart{
+    background-color: #6200ee;
+}
+.caja-ecart h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+}

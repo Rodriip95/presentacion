@@ -40,19 +40,19 @@ function NavbarNew(){
                         <div class="d-flex justify-content-start justify-content-lg-end w-100">
                             <ul class="navbar-nav">
                                 <li class="nav-item mx-2">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#about">About</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                <a class="nav-link" href="#">Skills</a>
+                                <a class="nav-link" href="#skills">Skills</a>
                                 </li>
-                                <li class="nav-item mx-2">
+                                {/* <li class="nav-item mx-2">
                                 <a class="nav-link" href="#">Services</a>
+                                </li> */}
+                                <li class="nav-item mx-2">
+                                <a class="nav-link" href="#projects">Projects</a>
                                 </li>
                                 <li class="nav-item mx-2">
-                                <a class="nav-link" href="#">Projects</a>
-                                </li>
-                                <li class="nav-item mx-2">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                                 </li>
                             </ul>
                         </div>

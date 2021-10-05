@@ -2,6 +2,15 @@ html{
     scroll-behavior: smooth;
 }
 
+.navbar-brand{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+}
+.navbar-brand span{
+    color: #ff6569;
+    font-weight: 900;
+}
+
 .navegacion{
     background-color: #2b2b47;
     color: #fff;
@@ -38,7 +47,7 @@ html{
 .nav-item a{
     text-decoration: none;
     font-family: 'Nunito Sans', sans-serif;
-    color: #fff;
+    color: rgb(87, 87, 87) !important;
     transition-duration: 200ms;
     transition-delay:  200ms;
     transition-timing-function: ease-out;
@@ -55,7 +64,7 @@ html{
     transition-timing-function: ease-in;
     transition-duration: 200ms;
     transition-delay:  5ms;
-    color: #ff6569;
+    color: #ff6569 !important;
     font-weight: bold;
 }
 

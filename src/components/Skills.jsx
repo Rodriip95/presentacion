@@ -24,7 +24,7 @@ export default function Skills() {
                 <Puntitos/>
                 <Subtitulo subTitulo={"Skills"}/>
             </div>
-            <div className="row contenedor-about">
+            <div data-aos="fade-up" className="row contenedor-about">
                 <div className="d-flex flex-column justify-content-between col-sm-12 col-md-4 align-items-center pt-4 pb-3">
                     {/* <img src={logoBack}/> */}
                     <i class="fas icono-cont text-danger fa-user-cog"></i>

@@ -24,7 +24,7 @@ function About() {
            <Puntitos/>
           <Subtitulo subTitulo={"About Me"}/>
        </div>
-       <div className="row contenedor-about">
+       <div data-aos="fade-up" className="row contenedor-about">
          <div className="col-12 col-lg-6">
           <p className="py-3">
                My name is Rodrigo Manuel Penela, i´m 26 years old and i´m from Buenos Aires, Argentina. I´m Full Stack Developer and i´m study a degree in Programming in the university (UNGS). I am very detailed, I like good designs and modern interfaces also in my free times I teach web design and work on projects with my partners. 
