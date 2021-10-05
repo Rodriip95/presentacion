@@ -47,7 +47,7 @@ export default function Contact(){
 
 
     return(
-        <div id="contact" className="container">
+        <div id="contact" className="container mt-4">
             <div className="d-flex container justify-content-start pb-4">
                 <Puntitos/>
                 <Subtitulo subTitulo={"Contact"}/>
